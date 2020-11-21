@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Generators
 {
-    public class Class1
+    public interface IGenerator
     {
+        object Generate(Type type);
     }
 }
